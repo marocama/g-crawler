@@ -1,0 +1,99 @@
+const client_manifest = {
+  "__plugin-vue_export-helper.aef08281.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "_plugin-vue_export-helper.aef08281.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "assets/img/spider.png": {
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png",
+    "file": "spider.6d1896dd.png",
+    "src": "assets/img/spider.png"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-404.95c28eb4.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [],
+    "file": "error-404.38acf794.js",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "__plugin-vue_export-helper.aef08281.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
+  },
+  "error-404.95c28eb4.css": {
+    "file": "error-404.95c28eb4.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "error-500.e798523c.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "css": [],
+    "file": "error-500.4b77463e.js",
+    "imports": [
+      "__plugin-vue_export-helper.aef08281.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+  },
+  "error-500.e798523c.css": {
+    "file": "error-500.e798523c.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "assets": [
+      "spider.6d1896dd.png"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ],
+    "file": "entry.e72fce9b.js",
+    "isEntry": true,
+    "src": "node_modules/nuxt/dist/app/entry.js",
+    "_globalCSS": true
+  },
+  "spider.6d1896dd.png": {
+    "file": "spider.6d1896dd.png",
+    "resourceType": "image",
+    "prefetch": true,
+    "mimeType": "image/png"
+  }
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map

@@ -1,0 +1,15 @@
+{
+  "name": "google-crawler",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6",
+    "axios": "^1.6.1",
+    "daisyui": "^3",
+    "nuxt": "^3"
+  }
+}
